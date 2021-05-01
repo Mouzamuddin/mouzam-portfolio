@@ -73,6 +73,9 @@ hr {
     padding: 0rem 0.5rem;
 
 }
+.link .link-active{
+    font-weight: bolder;
+}
 
 .navigation {
     background-color: var(--primary--color);
@@ -145,6 +148,7 @@ hr {
 
 .footer.link{
     color: white;
+    text-decoration: var(--dark--brown);
 }
 .footer .footer-header{
     font-weight: bold;
