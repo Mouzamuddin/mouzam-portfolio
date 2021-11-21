@@ -135,6 +135,10 @@ hr {
     background-color: var(--light--brown);
 }
 
+#more {
+    display: none;
+}
+
 .footer {
     background-color: var(--primary--color);
     padding: 2rem 1rem;

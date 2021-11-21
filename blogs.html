@@ -37,11 +37,11 @@
     </section>
     <section class="section" style="text-align:justify;">
         <div class="container "></div>
-        <h2 style="text-align: center;">blog2</h2>
+        <h2 style="text-align: center;">My journey to react js </h2>
         <p>This article is a bit long, believe me, after completing you’ll get started with React JS right away. Honestly, I wasted a lot of my time searching for the best material to get started. Watched Tons of YouTube videos never completed one, because
-            I was not aware of the fundamental prerequisites (checklist) of React.js. In this article, I’m going to take you through the journey of how I learned React JS from scratch by starting Plain(vanilla) HTML, CSS, JAVASCRIPT (beginner level) at
-            Neog level zero and also no prior experience in any frontend frameworks like Angular, Vue, etc., Understand this first, React is completely on JavaScript, the more you practice JavaScript the better you learn React. For now, basic JavaScript
-            is enough to get started.
+            I was not aware of the fundamental prerequisites (checklist) of React.js. In this article,<span id="dots">...</span><span id="more"> I’m going to take you through the journey of how I learned React JS from scratch by starting Plain(vanilla)
+            HTML, CSS, JAVASCRIPT (beginner level) at Neog level zero and also no prior experience in any frontend frameworks like Angular, Vue, etc., Understand this first, React is completely on JavaScript, the more you practice JavaScript the better
+            you learn React. For now, basic JavaScript is enough to get started.
         </p>
         <h3>Checklist/Prerequisites:</h3>
         <p>
@@ -115,10 +115,32 @@
             State — to put in simple terms ‘state’ holds synchronous variables, as if you change the value of a state variable then the change is reflected immediately in all the places that particular variable is used.<br> Props — are just like arguments
             passed in a function or method, in here props(arguments) are passed into an Html tag as input argument.<br> That’s Pretty much all I figured in my journey.
             <h3>Conclusion:</h3><br> Thank you for reading this, I hope you find this article helpful and get started with React JS and Web development.<br>
+       </span>
         </p>
-        </p>
-    </section>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
 
+        <script>
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
+                }
+            }
+        </script>
+
+
+
+
+    </section>
 
 </body>
 
