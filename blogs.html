@@ -28,23 +28,103 @@
         <h1 class="hero-heading">My Blogs </h1>
     </header>
 
-    <section class="section ow">
-        <div class="container conatiner-center"></div>
-        <h2>blog1</h2>
-        <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to
-            serve the greater good. It starts here, with you.</p>
-        <p></p>
+    <section class="section ow" style="text-align: left;">
+        <div class="container "></div>
+        <h2 style="text-align: center;">Getting started with Python</h2>
+        <div>
+            <h2>What is Python?</h2>
+            <br> Python is general-purpose programming & high-level programming language.
+            <br> Python is a programming language as well as a scripting language.
+            <br> Python is also called an Interpreted language<span id="dots1">...</span><span id="more1">
+
+            <br>
+            <h2>History</h2>
+            <br> Invented in the Netherlands, the early 90s by Guido van Rossum<br> Python was conceived in the late 1980s and its implementation was started in December 1989<br> Guido Van Rossum is a fan of ‘Monty Python’s Flying Circus, this is a famous
+            TV show in the Netherlands Named after Monty Python<br> Open-sourced from the beginning<br>
+            <br>
+            <h3>Python Features</h3>
+            <br> Easy to Learn and Use: Python has a simple syntax similar to the English language.<br> Interpreted Language: Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar
+            to PERL and PHP.<br> Object-Oriented Language: Python supports the Object-Oriented style or technique of programming that encapsulates code within objects.<br> Free and Open Source<br> Cross-platform Language (Portable): Python can run on
+            a wide variety of hardware platforms and has the same interface on all platforms.<br> Powerful
+            <br> Large Standard Library<br> Databases: Python provides interfaces to all major commercial databases.<br> GUI Programming: Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems,
+            such as Windows MFC, Macintosh, and the X Window system of UNIX.<br> Integrated: It can be easily integrated with C, C++ and Java.<br>
+            <br>
+            <h3>What can be done with Python?</h3>
+            <br> Console Application<br> Desktop GUI Application<br> Web Application<br> Mobile Application<br> Machine Learning<br> IOT
+            <br> Gaming
+            <br> Image Processing<br> Enterprise Applications<br> Testing
+            <br>
+            <br>
+            <h3>Who uses Python today?</h3>
+            <br> Google
+            <br> Intel
+            <br> Cisco
+            <br> Qualcomm
+            <br> IBM
+            <br> Hewlett-Packard
+            <br> Seagate
+            <br>
+            <br>
+            <h3>Famous Apps developed in Python</h3>
+            <br> Google Search Engine<br> YouTube
+            <br> Instagram
+            <br> Netflix
+            <br> Uber
+            <br> Dropbox
+            <br> Spotify
+            <br> Quora
+            <br> BitTorrent
+            <br> Mozilla Firefox<br> Getting Started With Python<br>
+            <br>
+            <h3>Python Installation</h3>
+            <br> For Windows & Linux<br>
+            <a href="https://www.python.org/downloads/"></a>https://www.python.org/downloads/</a><br> -From the above link download the latest version of python and install it. After installing the Python, go to the start menu then click on python in that one you can select Python 3.7 or IDLE.<br>            Open IDLE and start coding with Python<br>
+            <h3>IDE for Python Programming</h3>
+            <br> We can use different types of IDE to develop Python Programs. Some popular Python IDE are:<br> Pycharm
+            <br> Jupyter Notebook<br> Ecllipse(PyDev)
+            <br> Spyder
+            <br> Eric
+            <br> AWS Cloud9
+            <br> Komodo IDE
+            <br> Codenvyv
+        </span>
+
+
+        </div>
+        <button class="link link-primary" onclick="myFunction1()" id="myBtn1">Read more</button>
+
+        <script>
+            function myFunction1() {
+                var dots = document.getElementById("dots1");
+                var moreText = document.getElementById("more1");
+                var btnText = document.getElementById("myBtn1");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
+                }
+            }
+        </script>
+
+
     </section>
-    <section class="section" style="text-align:justify;">
+    <section class="section" style="text-align:left;">
         <div class="container "></div>
         <h2 style="text-align: center;">My journey to react js </h2>
-        <p>This article is a bit long, believe me, after completing you’ll get started with React JS right away. Honestly, I wasted a lot of my time searching for the best material to get started. Watched Tons of YouTube videos never completed one, because
-            I was not aware of the fundamental prerequisites (checklist) of React.js. In this article,<span id="dots">...</span><span id="more"> I’m going to take you through the journey of how I learned React JS from scratch by starting Plain(vanilla)
+        <div>This article is a bit long, believe me, after completing you’ll get started with React JS right away. Honestly, I wasted a lot of my time searching for the best material to get started. Watched Tons of YouTube videos never completed one,<br> because
+            I was not aware of the fundamental prerequisites (checklist) of React.js. In this article,<span id="dots2">...</span><span id="more2"> I’m going to take you through the journey of how I learned React JS from scratch by starting Plain(vanilla)
             HTML, CSS, JAVASCRIPT (beginner level) at Neog level zero and also no prior experience in any frontend frameworks like Angular, Vue, etc., Understand this first, React is completely on JavaScript, the more you practice JavaScript the better
             you learn React. For now, basic JavaScript is enough to get started.
-        </p>
-        <h3>Checklist/Prerequisites:</h3>
-        <p>
+            <br>
+            <br>
+        
+            <h3>Checklist/Prerequisites:</h3>
+       
             <h3>the below Checklist is mandatory, make sure you tick all the items to understand any React JS tutorial.</h3>
             <h4>1. HTML, CSS, and JavaScript (Fundamentals to get started).</h4>
             <h4>2. Some ES6 concepts of JavaScript like -
@@ -53,18 +133,18 @@
                 <h4>3. Class and ‘this’ keyword</h4>
                 <h4>3. Node.js (Fundamentals)</h4>
                 You don’t have to know it completely at the beginning, just concentrate on the fundamentals which I’ll tell you below.
-                <h>4. Code-Editor (code sandbox would be a lot easier as it has React environment predefined).</h4>
-
-        </p>
-        <h3>HTML, CSS, JAVASCRIPT:</h3>
-        <h3>Skip this topic if you are not new to Html, CSS, JS.</h3>
-        <p>
+                <h>4. Code-Editor (code sandbox would be a lot easier as it has React environment predefined).</h4><br>
+                    <br>
+        
+            <h3>HTML, CSS, JAVASCRIPT:</h3><br>
+            <h3>Skip this topic if you are not new to Html, CSS, JS.</h3><br>
+         <br>
             . These three are the foundations of frontend web development.<br> · They work together to create a fully functional web app/website.<br> · Consider a Human body as a website or web app<br> · HTML — Defines the structure which is the “Skeleton”,
             tells what has to come where.<br> · CSS — Defines the style which is the “Skin, Flesh”, tells how a particular segment should look like what should be its Colour, Height, Width, etc.,<br> · JS — Defines the functionality which is the “Brain”
             not exactly the brain but the part of the brain which tells each of the parts to do what.<br> · I think that’s enough to understand how HTML, CSS, and JavaScript work together to create a web application or website.<br>
-        </p>
-        <h4>Some ES6 concepts of Javascript:</h4>
-        <p>
+            <br>
+            <h4>Some ES6 concepts of Javascript:</h4>
+            <br>
             Arrow Function, Let and Const, Class and ‘this’ keyword The JavaScript in our browser keeps on changing, ES6 or ECMAScript 2015 if I put it in simple words it is just another version of JavaScript.<br> There are lots of new features in ES6
             but for now to get started with React we just need to know about Arrow Functions, Let and Const, Class and ‘this’ keyword.<br>
 
@@ -99,12 +179,12 @@
             <h4>
                 2. IMPORT and EXPORT keywords.</h4>
             Import — after installing a node module using NPM in your project, to use that module in your code you use ‘import’.<br> Export — is used when you are creating a module/component and want to return only a part, not all the methods and variables.<br>            Those two above mentioned concepts of Node Js are good enough to get started with React JS.<br>
-        </p>
-        <p>
+            <br>
+            <br>
             <h3>
                 CODE EDITORS</h3>
             A better selection of code editor helps a lot during development.<br> For Web development the most recommended code editors are<br> 1. Visual Studio Code — VS CODE — Highly recommended.<br> 2. Sublime Text<br> 3. Atom<br> Checklist Done</p>
-        <p>
+            <br>
             <h3> React JS</h3>
             Now let’s talk about React and things to learn first.<br> What is React JS?<br> React is a JavaScript library developed by Facebook to build interactive User Interfaces.<br> React follows Component architecture, which means every part of a
             web app or website is a component, all are made separately and finally fitted into a parent component which is then rendered.<br>
@@ -115,15 +195,16 @@
             State — to put in simple terms ‘state’ holds synchronous variables, as if you change the value of a state variable then the change is reflected immediately in all the places that particular variable is used.<br> Props — are just like arguments
             passed in a function or method, in here props(arguments) are passed into an Html tag as input argument.<br> That’s Pretty much all I figured in my journey.
             <h3>Conclusion:</h3><br> Thank you for reading this, I hope you find this article helpful and get started with React JS and Web development.<br>
-       </span>
-        </p>
-        <button onclick="myFunction()" id="myBtn">Read more</button>
+        </span>
+            <br>
+        </div>
+        <button class="link link-primary" onclick="myFunction2()" id="myBtn2">Read more</button>
 
         <script>
-            function myFunction() {
-                var dots = document.getElementById("dots");
-                var moreText = document.getElementById("more");
-                var btnText = document.getElementById("myBtn");
+            function myFunction2() {
+                var dots = document.getElementById("dots2");
+                var moreText = document.getElementById("more2");
+                var btnText = document.getElementById("myBtn2");
 
                 if (dots.style.display === "none") {
                     dots.style.display = "inline";
